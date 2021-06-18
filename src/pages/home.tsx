@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {generateCsvFile} from '../utils/generateCsvFile'
 import {Button, DatePicker, Row, Col, Input, Layout} from "antd";
 
-const {Header, Content, Footer, Sider} = Layout;
+const {Header, Content} = Layout;
 
 interface ISearch {
     conference: string;
